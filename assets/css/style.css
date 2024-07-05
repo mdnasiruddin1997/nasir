@@ -126,7 +126,7 @@ a {
 /*header*/
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(62, 34, 34, 0.5), rgba(45, 34, 84, 0.2)), url("/assets/Image/baner.jpg") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(62, 34, 34, 0.5), rgba(45, 34, 84, 0.2)), url(https://raw.githubusercontent.com/mdnasiruddin1997/nasir/main/assets/Image/baner.jpg) center/cover no-repeat fixed;
     position: relative;
 }
 
