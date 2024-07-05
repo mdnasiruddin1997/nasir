@@ -245,7 +245,7 @@ a {
 }
 
 .skill-icon {
-    font-size: 0.6rem;
+    font-size: 5rem;
     display: inline-block;
     margin-bottom: 1.3rem;
     transition: var(--mainTransition);
