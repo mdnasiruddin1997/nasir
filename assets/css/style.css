@@ -17,16 +17,27 @@
 }
 
 /*helper utility classes*/
-a {
+a{
     text-decoration: none;
 }
 
-.text-white {
+.text-white{
     color: var(--mainWhite);
 }
 
-.text-center {
+.text-center{
     text-align: center;
+}
+
+.text-primary{
+    color: var(--primaryColor);
+}
+/*Clearfix*/
+Clearfix::after
+Clearfix::before{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /*global*/
@@ -192,11 +203,11 @@ a {
     }
 
     50% {
-        transform: translateX(-200px);
+        transform: translateX(-80px);
     }
 
     75% {
-        transform: translateX(50px);
+        transform: translateX(30px);
     }
 
     100% {
@@ -210,11 +221,11 @@ a {
     }
 
     50% {
-        transform: translateX(-200px);
+        transform: translateX(-80px);
     }
 
     75% {
-        transform: translateX(-50px);
+        transform: translateX(30px);
     }
 
     100% {
@@ -227,7 +238,7 @@ a {
 /*content-divider*/
 .content-divider {
     height: .4rem;
-    background: linear-gradient(to left, var(--primaryColor),var(--seccondaryColor), var(--primaryColor));
+    background: linear-gradient(to left, var(--primaryColor), var(--seccondaryColor), var(--primaryColor));
 }
 
 /*endcontent-divider*/
@@ -235,16 +246,18 @@ a {
 /*---skills section---*/
 .skills {
     background: var(--mainGrey);
+    overflow: hidden;
 }
 
 .skill {
     text-align: center;
     padding: 2.4rem 0;
     transition: var(--mainTransition);
+    float: left;
 }
 
 .skill-icon {
-    font-size: 3rem;
+    font-size: 2rem;
     display: inline-block;
     margin-bottom: 1.3rem;
     transition: var(--mainTransition);
@@ -284,6 +297,13 @@ a {
         width: 50%;
     }
 }
+
+@media screen and(min-width:1200px) {
+    .skill {
+        width: 25%;
+    }
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
