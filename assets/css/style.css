@@ -279,6 +279,8 @@ Clearfix::before{
     margin: 0 auto;
 }
 
+
+
 .skill:hover {
     background: var(--primaryColor);
 }
