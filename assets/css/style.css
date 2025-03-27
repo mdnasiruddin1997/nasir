@@ -289,6 +289,12 @@ Clearfix::before{
     color: var(--mainWhite);
 }
 
+
+
+
+
+
+
 .skill:hover .skill-icon {
     transform: translateY(-5px);
 }
